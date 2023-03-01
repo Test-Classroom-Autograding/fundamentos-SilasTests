@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "TestIO",
+      "setup": "make clean a.out",
+      "run": "make -s test",
+      "input": "",
+      "output": "Hello, World!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
